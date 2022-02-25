@@ -1,0 +1,22 @@
+{
+    "model" : "mdp",
+    "parameters" :
+    {
+      "number_of_VMs" :
+      {
+        "values"   : [1, 2, 3]
+      },
+      "total_load" :
+      {
+        "limits"   : [0, 50, 100]
+      }
+    },
+    "actions" :
+    {
+      "add_VMs"    : [1],
+      "remove_VMs" : [1],
+      "no_op"      : [0]
+    },
+    "initial_qvalues"  : 0,
+    "discount"         : 0.5
+  }
