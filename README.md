@@ -2,7 +2,7 @@
 ## **Introduction**
 
 ## Required Libraries
--pthread
+-pthread Basic library for threads in C++
 [nlohmann](https://github.com/nlohmann/json) jason Library. We recomend to read [nlohmann](https://github.com/nlohmann/json) documentation to run the library properly.
 
 ### How to run experiments :
