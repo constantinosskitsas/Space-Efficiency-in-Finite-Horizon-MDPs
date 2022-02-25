@@ -32,12 +32,12 @@ Run :1)g++ -pthread /run_model.cpp -o run_model.sh
      2)Run the scripts.
 ```
 ## Additional Information : 
-```
+
   The scripts pass 4 parameters the algorithm,randomness seed and Horizon size and gamma(discount rate) (run_model.cpp).Gamma has no effect for the Finite Horizon algorithms
   You can run the code also using the run_model.cpp and passing the abovementioned parameters.
   compare_all_models.cpp is also for experiments. However it accepts no parameters and changes have to be made from code.
   To Change the model (number of states) you have to change manually the parameter CONF_FILE in run_models.cpp or compare_all_models.cpp respectivelly.
-  ```
+
 ## Reference
 
 Please cite our work in your publications if it helps your research:
