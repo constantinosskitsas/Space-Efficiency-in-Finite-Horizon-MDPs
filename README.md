@@ -1,6 +1,24 @@
 # Space-Efficiency-in-Finite-Horizon-MDPs
 ## **Introduction**
-
+Can we get finite-horizon Markov decision processes (FHMDPs)
+to be solved with low memory requirements? Such models find
+application in many cases where an decision-making agent needs
+to act in a probabilistic environment from resource management
+to medicine to service provisioning. However, computing optimal
+policies such an agent should follow by dynamic programming
+value iteration raises either prohibitive space complexity, or, in re-
+verse, non-scalable time complexity requirements. This scalability
+question has been largely neglected. In this paper, we propose SIFT
+(Space Efficient Finite Horizon MDPs) a suite of algorithms that
+achieve a golden middle between space and time requirements. Our
+former algorithm raises space complexity growing with the square
+root of the horizon length without a time-complexity overhead,
+while the latter’s space requirements depend only logarithmically
+in horizon length with a corresponding logarithmic time complexity
+overhead. A thorough experimental study confirms that SIFT algo-
+rithms achieve the predicted gains, while approximation techniques
+do not achieve the same combination of time efficiency, space effi-
+ciency, and result quality.
 ## Required Libraries
 -pthread Basic library for threads in C++
 [nlohmann](https://github.com/nlohmann/json) jason Library. We recomend to read [nlohmann](https://github.com/nlohmann/json) documentation to run the library properly.
