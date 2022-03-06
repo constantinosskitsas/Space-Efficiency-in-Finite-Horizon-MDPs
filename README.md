@@ -42,9 +42,9 @@ ciency, and result quality.
 ### How to run experiments :
 We created scripts that represent the experiments we have in the paper
 ```shell
-1)Mem_Run.sh Memory and Runtime Experiment. Figure xx
-2)Rewards_MR.sh Modified Rewards Experiment. Figure xx
-3)Rewards_exp.sh Rewards Experiment. Figure xx
+1)Mem_Run.sh Memory and Runtime Experiment. 
+2)Rewards_MR.sh Modified Rewards Experiment. 
+3)Rewards_exp.sh Rewards Experiment. 
 
 Run :1)g++ -pthread /run_model.cpp -o run_model.sh 
      2)Run the scripts.
