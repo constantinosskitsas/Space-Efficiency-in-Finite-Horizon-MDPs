@@ -63,3 +63,5 @@ Please cite our work in your publications if it helps your research:
 ```
 The paper is under submission. 
 ```  
+
+The project was implemented in collaboration with Giannis Papageorgiou @el16104.
