@@ -59,7 +59,7 @@ Run :1)g++ -pthread /run_model.cpp -o run_model.sh
 ## Reference
 
 Please cite our work in your publications if it helps your research:
-
+```
 @article{skitsas2022sifter,
   title={SIFTER: space-efficient value iteration for finite-horizon MDPs},
   author={Skitsas, Konstantinos and Papageorgiou, Ioannis G and Talebi, Mohammad Sadegh and Kantere, Verena and Katehakis, Michael N and Karras, Panagiotis},
@@ -70,5 +70,5 @@ Please cite our work in your publications if it helps your research:
   year={2022},
   publisher={VLDB Endowment}
 }
-
+```
 The project was implemented in collaboration with Giannis Papageorgiou @el16104.
